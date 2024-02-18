@@ -12,32 +12,32 @@ export const Projects = () => {
   const projects = [
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "RM 20",
       imgUrl: projImg1,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "RM 34",
       imgUrl: projImg2,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "RM 45",
       imgUrl: projImg3,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "RM 19",
       imgUrl: projImg1,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "RM 23",
       imgUrl: projImg2,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "RM 40",
       imgUrl: projImg3,
     },
   ];
@@ -50,8 +50,8 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h2>My Product</h2>
+                <p>Check out my awesome products! Your support means a lot!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
